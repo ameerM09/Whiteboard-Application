@@ -1,4 +1,4 @@
-# Simple-Whiteboard-Application
-A simply whiteboard-like application created using the Python module, Pygame.
+# Whiteboard Application 
 
-This project utilized Python packaging to make the program more neat and organized.
+A simple whiteboard application created using Pygame graphics. 
+The project involves a Python packaging system to divide the program and keep it more neat and organized. 

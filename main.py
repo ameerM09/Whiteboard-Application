@@ -56,14 +56,18 @@ def main_loop():
 		Button(70, WIN_HEIGHT - MENU_HEIGHT // 2 - 45, 35, 35, RED),
 		Button(130, WIN_HEIGHT - MENU_HEIGHT // 2 - 45, 35, 35, ORANGE),
 		Button(190, WIN_HEIGHT - MENU_HEIGHT // 2 - 45, 35, 35, YELLOW),
+		Button(250, WIN_HEIGHT - MENU_HEIGHT // 2 - 45, 35, 35, NEON_YELLOW),
+		Button(310, WIN_HEIGHT - MENU_HEIGHT // 2 - 45, 35, 35, GREEN),
 
-		Button(10, WIN_HEIGHT - MENU_HEIGHT // 2 , 35, 35, GREEN),
-		Button(70, WIN_HEIGHT - MENU_HEIGHT // 2 , 35, 35, BLUE),
-		Button(130, WIN_HEIGHT - MENU_HEIGHT // 2, 35, 35, PURPLE),
-		Button(190, WIN_HEIGHT - MENU_HEIGHT // 2 , 35, 35, PINK),
+		Button(10, WIN_HEIGHT - MENU_HEIGHT // 2, 35, 35, DARK_GREEN),
+		Button(70, WIN_HEIGHT - MENU_HEIGHT // 2, 35, 35, AQUA),
+		Button(130, WIN_HEIGHT - MENU_HEIGHT // 2, 35, 35, BLUE),
+		Button(190, WIN_HEIGHT - MENU_HEIGHT // 2, 35, 35, PURPLE),
+		Button(250, WIN_HEIGHT - MENU_HEIGHT // 2, 35, 35, MAGENTA),
+		Button(310, WIN_HEIGHT - MENU_HEIGHT // 2, 35, 35, PINK),
 
-		Button(250, WIN_HEIGHT - MENU_HEIGHT // 2 - 25, 80, 50, WHITE, 'Erase', BLACK),
-		Button(340, WIN_HEIGHT - MENU_HEIGHT // 2 - 25, 80, 50, WHITE, 'Clear', BLACK)
+		Button(370, WIN_HEIGHT - MENU_HEIGHT // 2 - 25, 80, 50, WHITE, 'Erase', BLACK),
+		Button(460, WIN_HEIGHT - MENU_HEIGHT // 2 - 25, 80, 50, WHITE, 'Clear', BLACK),
 	]
 
 	PEN_COLOR = BLACK
@@ -95,7 +99,7 @@ def main_loop():
 							if func_button.text == 'Clear':
 								drawing_grid = create_drawing_grid(ROWS, COLUMNS, BG_COLOR)
 
-								PEN_COLOR = BLACK
+								PEN_COLOR = BLACK					
 
 		render_elements(func_buttons)
 

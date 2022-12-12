@@ -6,8 +6,8 @@ import os
 pygame.init()
 pygame.font.init()
 
-WIN_WIDTH = 903
-WIN_HEIGHT = 1003
+WIN_WIDTH = 703
+WIN_HEIGHT = 803
 
 CAPTION = 'Whiteboard Application'
 
